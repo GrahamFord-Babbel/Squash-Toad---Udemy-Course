@@ -1,0 +1,47 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   21.21.13.6909
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+- Completed reload, in  0.332 seconds
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\GrahamGettel\Desktop\The Future\Squashy Toad\Level 1_Data\Managed\System.dll (this message is harmless)
+desktop: 1680x1050 59Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.216864 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: bf0 -> priority: 1 
+  Thread -> id: 1520 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.960151 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 615.
+Total: 0.600638 ms (FindLiveObjects: 0.060093 ms CreateObjectMapping: 0.027943 ms MarkObjects: 0.132206 ms  DeleteObjects: 0.363868 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at LaneSpawner.InstantiateRandomLane (UnityEngine.GameObject[] lanes) [0x00000] in <filename unknown>:0 
+  at LaneSpawner.CreateRandomLane (Single offset) [0x00000] in <filename unknown>:0 
+  at LaneSpawner.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
